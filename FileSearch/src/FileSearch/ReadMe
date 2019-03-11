@@ -1,0 +1,28 @@
+searching specified port and locations on file system
+Main.java start with 3 parameter (homeFolder,port,uri) 
+homefolder -> where config files in it 
+port -> specified port that you wish to search on files 
+uri -> specified uri that you'd like to search on logs
+
+
+if given port's config file exists, program will search given uri's Location block. 
+If uri's log not exists, program will add it. 
+If given port's config file doesn't exist program will create a new config file and would add uri's location log.
+Sample config file; this file should be in folder that you'r going to give Main.class as home folder
+
+
+"port9354.conf"
+	<Proxy "balancer://KPPrAKTC15402023789354">
+		BalancerMember "http://${server01}:9354"           
+		BalancerMember "http://${server02}:9354"
+	</Proxy>
+
+<Location /KLM/ProxyServices/Akrobat/TCKNKCBilgisiSorgulaKimlik>
+ProxyPass "balancer://KPPPPATCCKN12000/KPS/ProxyServices/Akrobat/TCKNKCBilgisiSorgulaKimlik"
+ProxyPassReverse "balancer://KPPPPATCCKN12000/KPS/ProxyServices/Akrobat/TCKNKCBilgisiSorgulaKimlik"
+</Location>
+
+<Location /Turkline/CRM/ProxyServices/ali>
+ProxyPass "balancer://Kpsrssl2111/Turkline/CRM/ProxyServices/ali"
+ProxyPassReverse "balancer://Kpsrssl2111/Turkline/CRM/ProxyServices/ali"
+</Location>
