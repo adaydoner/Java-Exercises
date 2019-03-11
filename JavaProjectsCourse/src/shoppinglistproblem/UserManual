@@ -1,0 +1,7 @@
+User Manual - shoppinglistproblem
+
+1-) Program start from Main.java
+2-) Program will wait a valid input text file path. You can basically change the ProgrammingChallenge\testdata\input.txt and give the program "testdata\input.txt" as an input.
+3-) Program firstly retrieve prices of staffs from file so you must type first what prices are known in input.txt file.
+4-) Then it calculate what is written like "what is the price of tomato apple?" so you must write what combination's total price you'd like to see in output.txt file.
+5-) After you run the program it will create a ProgrammingChallenge\testdata\output.txt what you can see the output. 
