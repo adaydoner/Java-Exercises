@@ -1,10 +1,5 @@
 /**
- * A company has employed N developers (numbered from 0 to N−1)
- * 		The first is a front-end team with F developers.
- * 		The second is a back-end team with N−F developers
- *  If the K-th developer is assigned to the front-end team then their contribution is A[K], and if they are assigned to the back-end team then their contribution is B[K].
- *  
- *  What is the maximum sum of contributions the company can achieve?
+ * Codility Award : https://app.codility.com/cert/view/cert2FCMM4-54TRKHR7WXSUKZT5/
  */
 
 package zirconium2019;
