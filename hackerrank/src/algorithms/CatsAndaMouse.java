@@ -1,3 +1,6 @@
+/*
+ * https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
+ */
 package algorithms;
 
 import java.util.Scanner;

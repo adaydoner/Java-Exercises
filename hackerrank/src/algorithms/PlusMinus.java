@@ -1,3 +1,6 @@
+/*
+ * https://www.hackerrank.com/challenges/plus-minus/problem
+ */
 package algorithms;
 
 import java.util.Scanner;
