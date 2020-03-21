@@ -5,7 +5,7 @@
  * For example, if the string s='abcac' and n = 10 the substring we consider is abcacabcac the first 10 characters of her infinite string. 
  * There are 4 occurrences of a in the substring. 
  */
-package InterviewPreparationKit;
+package interviewpreparationkit;
 
 import java.util.Scanner;
 

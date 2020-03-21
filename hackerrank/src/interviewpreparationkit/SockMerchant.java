@@ -5,7 +5,7 @@
  * 
  */
 
-package InterviewPreparationKit;
+package interviewpreparationkit;
 
 import java.util.Scanner;
 

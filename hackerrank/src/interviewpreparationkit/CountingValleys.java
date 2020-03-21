@@ -5,7 +5,7 @@
  * 
  * Complete the countingValleys function in the editor below. It must return an integer that denotes the number of valleys Gary traversed. 
  */
-package InterviewPreparationKit;
+package interviewpreparationkit;
 
 import java.util.Scanner;
 
